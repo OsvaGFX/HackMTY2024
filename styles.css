@@ -7,8 +7,8 @@ body {
     flex-direction: row;
     background-color: #4caf50;
     color: white;
-    padding: 20px;
-    text-align: center;
+    
+  
     
 }
 .bizLogo{
@@ -53,6 +53,7 @@ body {
 }
 
 .history-container {
+    margin-top: 40px;
     height: 400px;
     overflow-y: scroll;
     padding: 10px;
@@ -87,4 +88,23 @@ body {
 .footer h5 {
     color: #4caf50;
     margin-bottom: 10px;
+}
+.acount{
+    display: flex;
+    flex-direction: row;
+    margin-left: 70%;
+
+}
+.signIn{
+ height: 50px;
+ border-radius: 10px;
+ background-color: white;
+ color: blanck;
+}
+.register{
+ margin-left: 10px;
+ height: 50px;
+ border-radius: 10px;
+ background-color: black;
+ color: white;
 }
