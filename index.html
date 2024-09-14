@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BizBrain Chatbot</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css"> <!-- Archivo CSS externo -->
+</head>
+
+<body>
+    <!-- Header -->
+    <div class="header">
+        <h1>BizBrain</h1>
+    </div>
+
+    <!-- Chat and History Container -->
+    <div class="container chat-container">
+        <div class="row">
+            <!-- History Section (left column) -->
+            <div class="col-md-4">
+                <div class="history-container">
+                    <div class="history-header">Historial de preguntas</div>
+
+                    <!-- Example: History for today -->
+                    <div class="history-item">
+                        <strong>Hoy:</strong>
+                        <ul id="todayHistory">
+                            <li>¿Cómo está el clima?</li>
+                        </ul>
+                    </div>
+
+                    <!-- Example: History for yesterday -->
+                    <div class="history-item">
+                        <strong>Ayer:</strong>
+                        <ul id="yesterdayHistory">
+                            <li>¿Qué es Bootstrap?</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Chatbox Section (right column) -->
+            <div class="col-md-8">
+                <h3 class="text-center">Chatbot Verde</h3>
+
+                <!-- Message Box -->
+                <div class="message-box mb-3" id="messageBox">
+                    <!-- Example messages -->
+                    <div class="bot-message">
+                        <div class="message">¡Hola! ¿Cómo puedo ayudarte hoy?</div>
+                    </div>
+                    <div class="user-message">
+                        <div class="message">¿Cómo está el clima?</div>
+                    </div>
+                </div>
+
+                <!-- Input Area -->
+                <div class="input-group mb-3">
+                    <input type="text" class="form-control" placeholder="Escribe tu mensaje..." id="userInput">
+                    <button class="btn btn-success" id="sendMessageButton">Enviar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer for team credits -->
+    <div class="footer">
+        <h5>Equipo de Desarrollo</h5>
+        <p>Oswaldo Alfonso Hernandez Campos</p>
+        <p>Paco Wong</p>
+        <p>David Luna</p>
+    </div>
+
+    <!-- Bootstrap JS and Popper.js -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script> <!-- Archivo JavaScript externo -->
+</body>
+
+</html>
